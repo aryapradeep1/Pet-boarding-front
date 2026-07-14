@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import NaviBar from "./NaviBar";
 
 const ViewPet = () => {
 
@@ -17,7 +18,7 @@ const ViewPet = () => {
 
     return (
         <div>
-
+ <NaviBar/>
             <div className="container mt-5">
 
                 <h2 className="text-center mb-4">View Pet Bookings</h2>
